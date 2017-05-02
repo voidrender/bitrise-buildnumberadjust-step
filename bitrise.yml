@@ -75,7 +75,7 @@ workflows:
     envs:
       # if you want to share this step into a StepLib
       - MY_STEPLIB_REPO_FORK_GIT_URL: https://github.com/stefandevo/bitrise-steplib.git
-      - STEP_ID_IN_STEPLIB: buildnumberadjust
+      - STEP_ID_IN_STEPLIB: build-number-adjust
       - STEP_GIT_VERION_TAG_TO_SHARE: 1.0.0
       - STEP_GIT_CLONE_URL: https://github.com/stefandevo/bitrise-buildnumberadjust-step.git
     description: |-
